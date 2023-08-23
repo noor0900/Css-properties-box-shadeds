@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%; 
+    height: 585px;
+    /* border: 1px solid #000; */
+    /* background-color: green; */
+    background-image: linear-gradient(to top right ,rgba(0, 128, 0, 0.606),rgb(255, 255, 255));
+}
+.nav>.nav2{
+    width: 100%;
+    /* border: 1px solid #000; */
+    height: 90px;
+    position: relative;
+}
+.nav2>h1{
+    position: absolute;
+    left: 128px;
+    color: white;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 30px;
+}
+ul{
+    position: absolute;
+    left: 590px;
+    list-style: none;
+    top: 35px;
+}
+li{
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 30px;
+    color: green;
+    padding: 9px 13px;
+    box-shadow: 4px 9px 10px  green,-4px 9px 10px green; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+li:hover{
+    
+    color: white;
+    background-image: linear-gradient(to top right ,rgba(0, 128, 0, 0.806),rgb(255, 255, 255));
+    box-shadow: 4px 9px 10px  white,-4px 9px 10px white; 
+}
+.nav>h1{
+    color: white;
+    position: absolute;
+    left: 342px;
+    top: 170px;
+    text-align: center;
+    font-size: 48px;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    letter-spacing: 2px; 
+}
+.nav>p{
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+.nav>input{
+    position: absolute;
+    left: 450px;
+    top: 380px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 22px;
+    width: 26.5%;
+    height: 25px;
+    border: none;
+    outline: none;
+}
+.nav>input:focus{
+    box-shadow: 3px 12px 5px  black;
+    
+}
+.nav>button{
+    position: absolute;
+    left: 880px;
+    top: 380px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 6%;
+    height: 43px;
+    border: none;
+    outline: none;
+    color: green;
+}
+.nav>button:hover{
+    box-shadow: 1px 4px 10px 8px black;
+}
+.card{
+    position: relative;
+    width: 100%;
+    height: 542px;
+    /* border: 1px solid #000; */
+    background-color: green;
+    background-image: linear-gradient(to top left ,rgba(0, 128, 0, 0.802),rgb(255, 255, 255));
+}
+.card>h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 40px;
+    left: 468px;
+  
+}
+.card>h2{
+        color: white;
+        text-align: center;
+        font-size: 45px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: absolute;
+        top: 105px;
+        left: 412px;
+      
+}
+.card2{
+    position: relative;
+    width: 21.3%;
+    height: 245px;
+    /* border: 1px solid #000; */
+    float: left;
+    margin-left: 120px;
+    top: 190px;
+    background-color: white;
+    box-shadow: 4px 8px 10px  grey,-4px 8px 10px grey;
+}
+.card2:hover{
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px ;
+    box-shadow: 0 10px 0px 0px red;
+    cursor: progress;
+}
+.fa-plane-departure{
+    position: absolute;
+    color: green;
+    font-size: 40px;
+    left: 120px;
+    top: 10px;
+}
+.card2>h2{
+    position: relative;
+    text-align: center;
+    color: green;
+    top: 65px;
+    
+}
+.card2>p{
+    position: relative;
+    text-align: center;
+    top: 85px;
+     
+}
+.card2:hover>p{
+    font-size: 16px;
+    opacity: 0.4;
+}
+    
+  
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
